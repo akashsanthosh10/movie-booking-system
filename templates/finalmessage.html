@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Booking Successful</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='finalmessage.css')}}">
+  </head>
+  <body>
+    <form action="/finalmessage" method="post"></form>
+    <h1>Booking Successful</h1>
+    <p>Your booking ID is: {{ ticket_id }}</p>
+    <a href="/logout">Logout</a>
+  </body>
+</html>

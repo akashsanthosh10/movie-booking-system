@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='login.css')}}">
+</head>
+<body>
+    <div class="container">
+        <h1>Login to Movie Booking</h1>
+        <form method="POST" action="{{ url_for('login') }}">
+            <div class="headingsContainer">
+                <h3>Sign in</h3>
+                <p>Sign in with your email and password</p>
+            </div>
+            <div class="mainContainer">
+                <label for="email">Email</label>
+                <input type="text" placeholder="Enter your email" name="email" required>
+                <label for="password">Password</label>
+                <input type="password" placeholder="Enter your password" name="password" required>
+                <button type="submit">Sign in</button>
+                <p class="register">Don't have an account?  <a href="/register">Sign up now</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+body {
+    background-color: #292c35;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  a {
+    color: #c8a47e;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 400px;
+    border: 1px solid #c8a47e;
+    border-radius: 5px;
+    background-color: #44475a;
+  }
+  
+  .headingsContainer {
+    text-align: center;
+  }
+  
+  .headingsContainer h3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .headingsContainer p {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  
+  .mainContainer {
+    margin-top: 30px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #c8a47e;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #292c35;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  select {
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    background-color: #c8a47e;
+    color: #292c35;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #b3986f;
+  }
+  
+  .register {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+
+  @media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    select {
+      font-size: 14px;
+    }
+  
+    button[type="submit"] {
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Select Movie and Time</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='book.css')}}">
+  </head>
+  <body>
+    <h1>Select Movie and Time</h1>
+    <form action="/book" method="post">
+      <label for="movie">Movie:</label>
+      <select name="movie" id="movie">
+        <option value="Movie1">Movie1</option>
+        <option value="Movie2">Movie2</option>
+        <option value="Movie3">Movie3</option>
+        <option value="Movie4">Movie4</option>
+      </select>
+      <br><br>
+      <label for="time">Time:</label>
+      <select name="time" id="time">
+        <option value="12:00 PM">12:00 PM</option>
+        <option value="03:00 PM">03:00 PM</option>
+        <option value="06:00 PM">06:00 PM</option>
+        <option value="09:00 PM">09:00 PM</option>
+      </select>
+      <br><br>
+      <input type="submit" value="Book">
+    </form>
+  </body>
+</html>
